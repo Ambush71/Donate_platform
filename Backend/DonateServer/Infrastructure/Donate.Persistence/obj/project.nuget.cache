@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "ps34hC7stN/dHEwtBJR1BCGgm2NXLtEzYBy6cIV2DfiVapcfyBxZ5GHgTs7mwbdtWbqIEIev0VWzOA3P9HBp7Q==",
+  "dgSpecHash": "MEytqgvoDdVMKqoG8hJiPPVFrHnW8hGcHIPyrsHf2mY/ThjE1XfyvjE0bWG0SSRZo4/xggFKjy7JetkLLkcCzA==",
   "success": true,
-  "projectFilePath": "/Users/ambush/WebstormProjects/DonatePlatform/Backend/DonateServer/Donate.Application/Donate.Application.csproj",
+  "projectFilePath": "/Users/ambush/WebstormProjects/DonatePlatform/Backend/DonateServer/Infrastructure/Donate.Persistence/Donate.Persistence.csproj",
   "expectedPackageFiles": [
     "/Users/ambush/.nuget/packages/automapper/12.0.0/automapper.12.0.0.nupkg.sha512",
     "/Users/ambush/.nuget/packages/mediatr/11.0.0/mediatr.11.0.0.nupkg.sha512",
@@ -12,14 +12,18 @@
     "/Users/ambush/.nuget/packages/microsoft.entityframeworkcore/7.0.0-rc.2.22472.11/microsoft.entityframeworkcore.7.0.0-rc.2.22472.11.nupkg.sha512",
     "/Users/ambush/.nuget/packages/microsoft.entityframeworkcore.abstractions/7.0.0-rc.2.22472.11/microsoft.entityframeworkcore.abstractions.7.0.0-rc.2.22472.11.nupkg.sha512",
     "/Users/ambush/.nuget/packages/microsoft.entityframeworkcore.analyzers/7.0.0-rc.2.22472.11/microsoft.entityframeworkcore.analyzers.7.0.0-rc.2.22472.11.nupkg.sha512",
+    "/Users/ambush/.nuget/packages/microsoft.entityframeworkcore.relational/6.0.7/microsoft.entityframeworkcore.relational.6.0.7.nupkg.sha512",
     "/Users/ambush/.nuget/packages/microsoft.extensions.caching.abstractions/7.0.0-rc.2.22472.3/microsoft.extensions.caching.abstractions.7.0.0-rc.2.22472.3.nupkg.sha512",
     "/Users/ambush/.nuget/packages/microsoft.extensions.caching.memory/7.0.0-rc.2.22472.3/microsoft.extensions.caching.memory.7.0.0-rc.2.22472.3.nupkg.sha512",
+    "/Users/ambush/.nuget/packages/microsoft.extensions.configuration.abstractions/6.0.0/microsoft.extensions.configuration.abstractions.6.0.0.nupkg.sha512",
     "/Users/ambush/.nuget/packages/microsoft.extensions.dependencyinjection/7.0.0-rc.2.22472.3/microsoft.extensions.dependencyinjection.7.0.0-rc.2.22472.3.nupkg.sha512",
     "/Users/ambush/.nuget/packages/microsoft.extensions.dependencyinjection.abstractions/7.0.0-rc.2.22472.3/microsoft.extensions.dependencyinjection.abstractions.7.0.0-rc.2.22472.3.nupkg.sha512",
     "/Users/ambush/.nuget/packages/microsoft.extensions.logging/7.0.0-rc.2.22472.3/microsoft.extensions.logging.7.0.0-rc.2.22472.3.nupkg.sha512",
     "/Users/ambush/.nuget/packages/microsoft.extensions.logging.abstractions/7.0.0-rc.2.22472.3/microsoft.extensions.logging.abstractions.7.0.0-rc.2.22472.3.nupkg.sha512",
     "/Users/ambush/.nuget/packages/microsoft.extensions.options/7.0.0-rc.2.22472.3/microsoft.extensions.options.7.0.0-rc.2.22472.3.nupkg.sha512",
     "/Users/ambush/.nuget/packages/microsoft.extensions.primitives/7.0.0-rc.2.22472.3/microsoft.extensions.primitives.7.0.0-rc.2.22472.3.nupkg.sha512",
+    "/Users/ambush/.nuget/packages/mysqlconnector/2.1.2/mysqlconnector.2.1.2.nupkg.sha512",
+    "/Users/ambush/.nuget/packages/pomelo.entityframeworkcore.mysql/6.0.2/pomelo.entityframeworkcore.mysql.6.0.2.nupkg.sha512",
     "/Users/ambush/.nuget/packages/system.runtime.compilerservices.unsafe/6.0.0/system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512"
   ],
   "logs": []

@@ -1,7 +1,7 @@
 {
   "format": 1,
   "restore": {
-    "/Users/ambush/WebstormProjects/DonatePlatform/Backend/DonateServer/Infrastructure/Donate.Persistense/Donate.Persistense.csproj": {}
+    "/Users/ambush/WebstormProjects/DonatePlatform/Backend/DonateServer/Infrastructure/Donate.Persistence/Donate.Persistence.csproj": {}
   },
   "projects": {
     "/Users/ambush/WebstormProjects/DonatePlatform/Backend/DonateServer/Donate.Application/Donate.Application.csproj": {
@@ -41,6 +41,24 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[12.0.0, )"
+            },
+            "MediatR": {
+              "target": "Package",
+              "version": "[11.0.0, )"
+            },
+            "MediatR.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[11.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.0.0-rc.2.22472.11, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -114,14 +132,14 @@
         }
       }
     },
-    "/Users/ambush/WebstormProjects/DonatePlatform/Backend/DonateServer/Infrastructure/Donate.Persistense/Donate.Persistense.csproj": {
+    "/Users/ambush/WebstormProjects/DonatePlatform/Backend/DonateServer/Infrastructure/Donate.Persistence/Donate.Persistence.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/ambush/WebstormProjects/DonatePlatform/Backend/DonateServer/Infrastructure/Donate.Persistense/Donate.Persistense.csproj",
-        "projectName": "Donate.Persistense",
-        "projectPath": "/Users/ambush/WebstormProjects/DonatePlatform/Backend/DonateServer/Infrastructure/Donate.Persistense/Donate.Persistense.csproj",
+        "projectUniqueName": "/Users/ambush/WebstormProjects/DonatePlatform/Backend/DonateServer/Infrastructure/Donate.Persistence/Donate.Persistence.csproj",
+        "projectName": "Donate.Persistence",
+        "projectPath": "/Users/ambush/WebstormProjects/DonatePlatform/Backend/DonateServer/Infrastructure/Donate.Persistence/Donate.Persistence.csproj",
         "packagesPath": "/Users/ambush/.nuget/packages/",
-        "outputPath": "/Users/ambush/WebstormProjects/DonatePlatform/Backend/DonateServer/Infrastructure/Donate.Persistense/obj/",
+        "outputPath": "/Users/ambush/WebstormProjects/DonatePlatform/Backend/DonateServer/Infrastructure/Donate.Persistence/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/ambush/.nuget/NuGet/NuGet.Config"

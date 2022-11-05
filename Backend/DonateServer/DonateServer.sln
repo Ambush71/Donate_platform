@@ -10,7 +10,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Donate.Domain", "Donate.Dom
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Donate.Application", "Donate.Application\Donate.Application.csproj", "{DF201EE4-0543-4CED-89D2-CB52E73BDE43}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Donate.Persistense", "Infrastructure\Donate.Persistense\Donate.Persistense.csproj", "{69F83730-DEC2-4551-8532-77527550A31F}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Donate.Persistence", "Infrastructure\Donate.Persistence\Donate.Persistence.csproj", "{69F83730-DEC2-4551-8532-77527550A31F}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Donate.WebApi", "Presentation\Donate.WebApi\Donate.WebApi.csproj", "{DCF3A562-194A-4A46-99F6-A93D4100D8F9}"
 EndProject
