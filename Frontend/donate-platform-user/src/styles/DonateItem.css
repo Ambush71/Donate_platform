@@ -1,0 +1,24 @@
+.DonateItemBox{
+    width: 600px;
+    margin:auto;
+    margin-top: 60px;
+}
+
+.DonateItem{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    margin-top: 1px;
+}
+.Supplier{
+    align-self: flex-end;
+}
+.Needs{
+    align-self: flex-end;
+}
+.collapsed{
+    color: #d50000;
+    font-weight: bold;
+    font-family: Arial;
+    font-size: 25px;
+}

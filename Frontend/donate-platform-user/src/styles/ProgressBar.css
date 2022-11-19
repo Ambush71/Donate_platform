@@ -1,0 +1,9 @@
+.rs-progress{
+    color: white;
+}
+.rs-progress-line-inner{
+    height: 5px;
+}
+.rs-progress-info-status{
+   font-size: 15px;
+}

@@ -1,0 +1,21 @@
+@import "../../node_modules/rsuite/dist/rsuite.css";
+
+.rs-navbar{
+    background-color:rgba(15,23,51,0.95);
+    color: white;
+    opacity: 65%;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+}
+.rs-table-hover{
+    background-color: teal;
+}
+.rs-dropdown-menu{
+    background-color: rgba(8,23,51,0.95);
+}
+.rs-dropdown-item{
+    color: white;
+}

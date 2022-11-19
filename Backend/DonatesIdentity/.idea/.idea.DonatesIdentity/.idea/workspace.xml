@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="9004f0ee-a2e4-4ad9-a51a-45c13815e9ca" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../DonateServer/Donate.Application/Common/Behavior/ValidationBehavior.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DonateServer/Donate.Application/Donates/Commands/CreateCommand/CreateDonateCommandValidator.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DonateServer/Donate.Application/Donates/Commands/DeleteCommand/DeleteDonateCommandValidator.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DonateServer/Donate.Application/Donates/Commands/UpdateCommand/UpdateDonateCommandValidator.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DonateServer/Donate.Application/Donates/Queries/GetDonate/GetDonateDetailsQueryValidator.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DonateServer/Donate.Application/Donates/Queries/GetDonateList/GetDonateListQueryValidator.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DonateServer/Presentation/Donate.WebApi/Controllers/BaseController.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DonateServer/Presentation/Donate.WebApi/Controllers/DonateController.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DonateServer/Presentation/Donate.WebApi/Middleware/CustomExceptionHandlerMiddleware.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DonateServer/Presentation/Donate.WebApi/Middleware/CustomExceptionHandlerMiddlewareExtension.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DonateServer/Presentation/Donate.WebApi/Models/CreateDonateDto.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DonateServer/Presentation/Donate.WebApi/Models/UpdateDonateDto.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../../.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DonateServer/Donate.Application/Common/Mapping/AssemblyMappingProfile.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../DonateServer/Donate.Application/Common/Mapping/AssemblyMappingProfile.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DonateServer/Donate.Application/Common/Mapping/IMapWith.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../DonateServer/Donate.Application/Common/Mapping/IMapWith.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DonateServer/Donate.Application/DependencyInjection.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../DonateServer/Donate.Application/DependencyInjection.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DonateServer/Donate.Application/Donate.Application.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/../DonateServer/Donate.Application/Donate.Application.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DonateServer/Donate.Application/Donates/Commands/CreateDonate/CreateDonateCommand.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../DonateServer/Donate.Application/Donates/Commands/CreateCommand/CreateDonateCommand.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DonateServer/Donate.Application/Donates/Commands/CreateDonate/CreateDonateCommandHandler.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../DonateServer/Donate.Application/Donates/Commands/CreateCommand/CreateDonateCommandHandler.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DonateServer/Donate.Application/Donates/Commands/UpdateCommand/UpdateDonateCommand.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../DonateServer/Donate.Application/Donates/Commands/UpdateCommand/UpdateDonateCommand.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DonateServer/Donate.Application/Donates/Commands/UpdateCommand/UpdateDonateCommandHandler.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../DonateServer/Donate.Application/Donates/Commands/UpdateCommand/UpdateDonateCommandHandler.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DonateServer/Donate.Application/Donates/Queries/GetDonate/DonateDetailsVm.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../DonateServer/Donate.Application/Donates/Queries/GetDonate/DonateDetailsVm.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DonateServer/Donate.Application/Donates/Queries/GetDonate/GetDonateDetailsQuery.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../DonateServer/Donate.Application/Donates/Queries/GetDonate/GetDonateDetailsQuery.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DonateServer/Donate.Application/Donates/Queries/GetDonate/GetDonateQueryHandler.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../DonateServer/Donate.Application/Donates/Queries/GetDonate/GetDonateQueryHandler.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DonateServer/Donate.Application/Donates/Queries/GetDonateList/DonateLookupDto.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../DonateServer/Donate.Application/Donates/Queries/GetDonateList/DonateLookupDto.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DonateServer/Donate.Application/Donates/Queries/GetDonateList/GetDonateListHandler.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../DonateServer/Donate.Application/Donates/Queries/GetDonateList/GetDonateListHandler.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DonateServer/Donate.Application/obj/Debug/net6.0/Donate.Application.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../DonateServer/Donate.Application/obj/Debug/net6.0/Donate.Application.assets.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DonateServer/Donate.Application/obj/Debug/net6.0/Donate.Application.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../DonateServer/Donate.Application/obj/Debug/net6.0/Donate.Application.csproj.AssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DonateServer/Donate.Application/obj/Donate.Application.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/../DonateServer/Donate.Application/obj/Donate.Application.csproj.nuget.dgspec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DonateServer/Donate.Application/obj/Donate.Application.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/../DonateServer/Donate.Application/obj/Donate.Application.csproj.nuget.g.props" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DonateServer/Donate.Application/obj/Donate.Application.csproj.nuget.g.targets" beforeDir="false" afterPath="$PROJECT_DIR$/../DonateServer/Donate.Application/obj/Donate.Application.csproj.nuget.g.targets" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DonateServer/Donate.Application/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/../DonateServer/Donate.Application/obj/project.assets.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DonateServer/Donate.Application/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../DonateServer/Donate.Application/obj/project.nuget.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DonateServer/Donate.Application/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/../DonateServer/Donate.Application/obj/project.packagespec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DonateServer/Donate.Application/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/../DonateServer/Donate.Application/obj/rider.project.restore.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DonateServer/Donate.Domain/obj/Debug/net6.0/Donate.Domain.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../DonateServer/Donate.Domain/obj/Debug/net6.0/Donate.Domain.csproj.AssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DonateServer/Donate.Domain/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/../DonateServer/Donate.Domain/obj/rider.project.restore.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DonateServer/Infrastructure/Donate.Persistence/DependencyInjection.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../DonateServer/Infrastructure/Donate.Persistence/DependencyInjection.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DonateServer/Infrastructure/Donate.Persistence/Donate.Persistence.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/../DonateServer/Infrastructure/Donate.Persistence/Donate.Persistence.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DonateServer/Infrastructure/Donate.Persistence/obj/Debug/net6.0/Donate.Persistence.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../DonateServer/Infrastructure/Donate.Persistence/obj/Debug/net6.0/Donate.Persistence.assets.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DonateServer/Infrastructure/Donate.Persistence/obj/Debug/net6.0/Donate.Persistence.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../DonateServer/Infrastructure/Donate.Persistence/obj/Debug/net6.0/Donate.Persistence.csproj.AssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DonateServer/Infrastructure/Donate.Persistence/obj/Donate.Persistence.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/../DonateServer/Infrastructure/Donate.Persistence/obj/Donate.Persistence.csproj.nuget.dgspec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DonateServer/Infrastructure/Donate.Persistence/obj/Donate.Persistence.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/../DonateServer/Infrastructure/Donate.Persistence/obj/Donate.Persistence.csproj.nuget.g.props" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DonateServer/Infrastructure/Donate.Persistence/obj/Donate.Persistence.csproj.nuget.g.targets" beforeDir="false" afterPath="$PROJECT_DIR$/../DonateServer/Infrastructure/Donate.Persistence/obj/Donate.Persistence.csproj.nuget.g.targets" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DonateServer/Infrastructure/Donate.Persistence/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/../DonateServer/Infrastructure/Donate.Persistence/obj/project.assets.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DonateServer/Infrastructure/Donate.Persistence/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../DonateServer/Infrastructure/Donate.Persistence/obj/project.nuget.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DonateServer/Infrastructure/Donate.Persistence/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/../DonateServer/Infrastructure/Donate.Persistence/obj/project.packagespec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DonateServer/Infrastructure/Donate.Persistence/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/../DonateServer/Infrastructure/Donate.Persistence/obj/rider.project.restore.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DonateServer/Presentation/Donate.WebApi/Donate.WebApi.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/../DonateServer/Presentation/Donate.WebApi/Donate.WebApi.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DonateServer/Presentation/Donate.WebApi/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../DonateServer/Presentation/Donate.WebApi/Program.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DonateServer/Presentation/Donate.WebApi/appsettings.json" beforeDir="false" afterPath="$PROJECT_DIR$/../DonateServer/Presentation/Donate.WebApi/appsettings.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DonateServer/Presentation/Donate.WebApi/obj/Debug/net6.0/Donate.WebApi.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../DonateServer/Presentation/Donate.WebApi/obj/Debug/net6.0/Donate.WebApi.assets.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DonateServer/Presentation/Donate.WebApi/obj/Debug/net6.0/Donate.WebApi.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../DonateServer/Presentation/Donate.WebApi/obj/Debug/net6.0/Donate.WebApi.csproj.AssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DonateServer/Presentation/Donate.WebApi/obj/Donate.WebApi.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/../DonateServer/Presentation/Donate.WebApi/obj/Donate.WebApi.csproj.nuget.dgspec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DonateServer/Presentation/Donate.WebApi/obj/Donate.WebApi.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/../DonateServer/Presentation/Donate.WebApi/obj/Donate.WebApi.csproj.nuget.g.props" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DonateServer/Presentation/Donate.WebApi/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/../DonateServer/Presentation/Donate.WebApi/obj/project.assets.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DonateServer/Presentation/Donate.WebApi/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../DonateServer/Presentation/Donate.WebApi/obj/project.nuget.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DonateServer/Presentation/Donate.WebApi/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/../DonateServer/Presentation/Donate.WebApi/obj/project.packagespec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DonateServer/Presentation/Donate.WebApi/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/../DonateServer/Presentation/Donate.WebApi/obj/rider.project.restore.info" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ProjectId" id="2HEFomGxrrAMG3R4HuAYigh588f" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.environmentSetup&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="9004f0ee-a2e4-4ad9-a51a-45c13815e9ca" name="Changes" comment="" />
+      <created>1667842512350</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1667842512350</updated>
+      <workItem from="1667842515157" duration="17000" />
+      <workItem from="1667842543947" duration="406000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="UnityCheckinConfiguration" checkUnsavedScenes="true" />
+  <component name="UnityUnitTestConfiguration" currentTestLauncher="NUnit" />
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+  </component>
+</project>

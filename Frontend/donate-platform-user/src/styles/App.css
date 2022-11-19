@@ -1,0 +1,12 @@
+#root{
+    display: flex;
+    justify-content: center;
+}
+body{
+    background-image: url(../assets/field.jpg);
+    background-size:cover;
+
+}
+.ShadowPanel{
+    box-shadow: 0 -5px 30px black;
+}

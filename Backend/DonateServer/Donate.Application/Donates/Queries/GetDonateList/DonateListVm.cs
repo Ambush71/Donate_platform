@@ -1,8 +1,8 @@
-using MediatR;
+using Donate.Application.Donates.Queries.GetDonate;
 
 namespace Donate.Application.Donates.Queries.GetDonateList;
 
 public class DonateListVm
 {
-    public List<DonateLookupDto> Donates { get; set; }
+    public List<DonateVm> Donates { get; set; }
 }

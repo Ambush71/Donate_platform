@@ -1,0 +1,5 @@
+.DonatesList{
+    overflow-y: auto;
+    max-height:83vh;
+    width: 700px;
+}
